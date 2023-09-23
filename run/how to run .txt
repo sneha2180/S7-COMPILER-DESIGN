@@ -1,0 +1,4 @@
+flex mylexprogram.l
+gcc lex.yy.c -o mylexprogram -lfl
+mylexprogram
+ctl+d   -> when u give an output (enter reads next line of input)
